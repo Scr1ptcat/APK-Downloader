@@ -7,10 +7,10 @@ open System.IO
 
 module Configuration = 
 
-    let apiKey = "b1207f182ed1c3b28f8cc12ad330bb4079e38dbcab85828bed36c22dbbe0a078"
+    let apiKey = "{Your Androzoo API Key Here}"
     let androzooURI = "https://androzoo.uni.lu/api/download?apikey={0}&sha256={1}"
-    let inputDirectory = @"C:\Users\John\Desktop\multi-versioned-apks.txt"
-    let outputDirectory = @"C:\APKs\"
+    let inputDirectory = @"~\multi-versioned-apks.txt"
+    let outputDirectory = @"~\APKs\"
 
 let ReadTargetSHAs shaList : string [] =
 
